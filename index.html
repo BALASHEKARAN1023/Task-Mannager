@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h2>Time Tracker</h2>
+      <form id="forms" class="foda">
+      <input type="text" id="task" placeholder="Tasks">
+      <input type="text" id="description" placeholder="Description">
+      <button type="submit" id="addTask">Add Task</button>
+    </form>
+      <div class="sel">
+        <select name="catagory" id="sel">
+          <option value="Meeting">Meeting</option>
+          <option value="Personal Break">Personal Break</option>
+          <option value="Project abc">Project abc</option>
+        </select>
+      </div>
+      <button class="sfi" onclick="filbutton()">Fillter</button>
+      <div id="stopwatch"><span class="op">00:00:00</span> </div>
+      <div class="control">
+        <button id="startstop" onclick="StartStop()">Start</button>
+        <button onclick="Reset()">Reset</button>
+      </div>
+      <div class="ta">
+        <table id="tab" >
+          <tr>
+            <th>Task</th>
+            <th>Discription</th>
+            <th>Duration</th>
+            <th>Action</th>
+          </tr>
+        </table>
+      </div>
+      <br />
+      
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>

@@ -1,0 +1,94 @@
+.sel{
+    display: inline-flex;
+}
+body{
+    
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTT71L8w3DpKCmlPAEso-agLS41bnwrwGPiT5P7OwXsiQ&s");
+    background-size: cover;
+}
+
+.container{
+    /* padding: 20px; */
+    border-radius: 40px;
+    width: 100%;
+    /* background-color:#9191f87c; */
+    /* background-image: url("https://png.pngtree.com/thumb_back/fh260/background/20200709/pngtree-beautiful-neon-lights-geometric-and-circle-shapes-background-image_350922.jpg"); */
+    /* background-size: cover; */
+   
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+    border-color:rebeccapurple;
+    border-radius: 20%/45%;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+th{
+    background-color: whitesmoke;
+  }
+tr:nth-child(even){
+ 
+  text-shadow: 0 0 3px #a30de9, 0 0 5px #ff006aec;
+  color: whitesmoke;
+  /* background-clip: text; */
+  background-color: rgb(201, 245, 230) !important;
+}
+tr:nth-child(odd){
+    background-color:rgb(223, 204, 223) !important;
+    text-shadow:  1px 1px 2px rgb(255, 255, 255), 0 0 1em rgb(0, 255, 213), 0 0 0.2em rgb(255, 0, 242);
+    background-clip: text;
+  }
+  #sel{
+    border-radius: 10px;
+    background-color: rgb(223, 204, 223);
+  }
+input{
+     border-radius: 5px;
+    width: 30%;
+    box-sizing: border-box;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-shadow: #2bff00;
+}
+button{
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    display: inline;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#stopwatch{
+    font-size: larger;
+    margin-bottom: 10px;
+    border:1px #C4CF1A outset;
+    border-width:4px;
+    border-radius:30%/10%;
+    display: inline-flex;
+ 
+}
+h2{
+    font-size: xx-large;
+    text-align: center;
+    
+}
+td{
+    font-size: large;
+    text-align: center;
+}
+.control{
+    display: inline-flex;
+}
+.foda{
+    display: inline;
+    
+}
+.op{  
+    text-shadow: 0px 0px 5px rgba(216, 33, 33, 0.829);
+    box-shadow: #ff0000;
+    
+}
